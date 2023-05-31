@@ -1,0 +1,11 @@
+--Create database for my three favorite books with ratings
+
+CREATE TABLE Books (id integer primary key, name text, rating integer);
+INSERT INTO Books VALUES
+(1, 'Corps Security', 1),
+(2, 'Axel', 2),
+(3, 'Cooper', 3)
+;
+
+--Displayed the batabase
+SELECT * FROM Books
